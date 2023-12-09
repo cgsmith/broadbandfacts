@@ -1,5 +1,5 @@
 <?php
 
 test('placeholder for feature tests', function () {
-    expect()->toBeTrue();
+    expect(true)->toBeTrue();
 });
