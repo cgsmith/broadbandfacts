@@ -29,7 +29,6 @@ return new class extends Migration
             $table->integer('download_speed_type');
             $table->integer('upload_speed');
             $table->integer('upload_speed_type');
-            $table->integer('latency_in_ms');
             $table->integer('data_included');
             $table->integer('data_included_type');
             $table->integer('cents_per_additional_data');
